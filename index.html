@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="mainCSS.css" />
-    <link rel="stylesheet" type="text/css" href="mainJS.js" />
+    <script src="mainJS.js"></script>
 
     <title>Welcome</title>
     <h1>Connect with people who understand</h1>
@@ -16,9 +16,9 @@
 <body>
 <!-- start nav -->
 <form action="action_page.php" method="post">
-    <div class="imgcontainer">
+    <!-- <div class="imgcontainer">
       <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
+    </div> -->
   
     <div class="container">
       <label for="uname"><b>Username</b></label>
@@ -47,25 +47,21 @@
               <!-- <img src="./Images/woman.jpg" class="d-block w-100" alt="..."> -->
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
           </div>
         </div>
       </div>
       <!-- end of caroousel -->
       <!-- list -->
-      <div class="col-6 row mx-auto illness_display" id="chronicIllness_selectors">
-    </div>
-    <div class="col-6 chronicIllness_selectors">
-      <!-- end list -->
-
-<div>
-
+ <div onload="appendNames();">
+      <select id="chronicIllnesses">
+        <option>Choose an Illness</option>
+    </select>
 </div>
-
-
+      <!-- end list -->
 
 </body>
 </html>
