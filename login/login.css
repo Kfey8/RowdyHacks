@@ -1,10 +1,17 @@
 /* Bordered form */
+body{
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background-repeat: none;
+}
 form {
-    border: 3px solid #4397c7;
+    border: 3px solid #5D3FD3;
     border-radius: 25px;
     padding: 20px; 
     width: 93.75%;
     height: 93.75%; 
+  }
+  #chronicIllnesses{
+    text-align: center;
   }
   
   /* Full-width inputs */
@@ -16,10 +23,14 @@ form {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
+  h1{
+    margin-left: 3em;;
+    font-family: 'Shadows Into Light', cursive;
+  }
   
   /* Set a style for all buttons */
   button {
-    background-color: #04AA6D;
+    background-color: #5D3FD3;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
