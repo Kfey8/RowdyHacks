@@ -9,6 +9,8 @@ body, h2, h3, h4, h5, h6{
  font-family: "Amatic SC", sans-serif
 }
 .navBarStyle{
+    width: 100%;
+    background-color: #808080;
    display: flex;
    justify-content: left !important;
    margin-right: 2em;
@@ -16,6 +18,9 @@ body, h2, h3, h4, h5, h6{
 }
 a {
     margin-right: 2em;
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
 }
 
 body{
@@ -72,13 +77,14 @@ header {
 
 
 #larger-box{
-    margin-top: 5px;
+    margin-top:  100px;
     border: 2px solid #57a7cf;
     width: 400px;
     height: 550px;
     color: #497da6;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace !important;
+    margin-left: 1em;;
 
 }
 
