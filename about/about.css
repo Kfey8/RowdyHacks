@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(212, 212, 209);
+}
+
+.about-section {
+    padding-top: 40px !important;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 60px;
+    font-weight: bolds;
+}
+
+.w3-bar {
+    height: 40px;
+    
+}
+
+.nav-options {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 28px;
+}
