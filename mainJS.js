@@ -17,9 +17,8 @@ function appendNames(){
         var opt = chronicIllnesses[i]["name"];
         var el = document.createElement("option");
         el.textContent = opt;
-        el.value =opt;
+        el.value = opt;
         select.appendChild(el);
         console.log("here");
     }
 }
-appendNames();
