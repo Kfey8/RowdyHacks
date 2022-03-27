@@ -6,8 +6,8 @@
   font-family: 'Poppins',sans-serif;
 }*/
 body{
-  height: 500%;
-  width:500%;
+  /* height: 500%;
+  width:500%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,5 +144,10 @@ form .user-details .input-box{
   @media(max-width: 459px){
   .container .content .category{
     flex-direction: column;
+  }
+
+  #nav {
+    background-color: grey;
+    height: 30px;
   }
 }
