@@ -13,6 +13,23 @@ form {
   #chronicIllnesses{
     text-align: center;
   }
+  .navBarStyle{
+    display: flex;
+    width: 100%;
+    justify-content: left !important;
+    margin-right: 2em;
+    font-size: xx-large;
+    background-color: grey;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 10px !important;
+    font-family: "Amatic SC", sans-serif !important;
+
+ }
+ a {
+  margin-right: 2em;
+  color:white;
+}
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
