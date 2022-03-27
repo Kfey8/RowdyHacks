@@ -10,6 +10,7 @@ body {
 .about-title {
     font-size: 60px;
     font-weight: bolds;
+    color: #193C6E;
 }
 
 .w3-bar {
@@ -25,4 +26,33 @@ a {
     text-decoration: none;
     vertical-align: middle;
     font-size: 28px;
+    padding: 5px;;
 }
+
+.about-section{
+    font-size: xx-large;
+    
+}
+.text {
+   align-content: center;
+   margin-right: 50px;
+   margin-left:  50px;
+   font-weight: bold;
+   text-shadow: 5px;
+}
+h1 {
+    color: ;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container .image {
+    width: 50%;
+  }
+  
+  .container img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+  }
