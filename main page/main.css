@@ -9,3 +9,20 @@
 body, h1, h2, h3, h4, h5, h6{
  font-family: "Amatic SC", sans-serif
 }
+.navBarStyle{
+   display: flex;
+   justify-content: left !important;
+   margin-right: 2em;
+   font-size: xx-large;
+}
+a {
+    margin-right: 2em;
+}
+
+body{
+    background-image:url('/Images/ribbons.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* <div style="height:800px;background-image:url('/Images/ribbons.jpg');background-repeat:repeat; background-attachment:fixed;overflow:scroll;" class="w3-display-container w3-grayscale-min">
+</div> */
