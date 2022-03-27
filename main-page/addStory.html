@@ -7,6 +7,10 @@
 <link rel="stylesheet" href="/main page/main.css">
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
 
 <head>
     <meta charset="UTF-8">
@@ -30,18 +34,19 @@
 
 
 <!-- Stories -->
-
-<div class="yourStoryStyle">
-<form action="Script_URL" method = "GET|POST" id="getStory">     
-    You're Story:    
-    <input type="text" class="userInput" name="theStory"> 
-</form>
-</div>
- <button onClick="display()">Submit</button>
-<div class="myStory">
-   
-</div>
+<div id="background-wrapper">
+    <h1>    Your Story: </h1>
+        <div class="yourStoryStyle">
+            <form action="Script_URL" method = "GET|POST" id="getStory">     
+                <input type="text" class="userInput" name="theStory"> 
+            </form>
+        </div>
+    <div class="center-button">
+        <button onClick="display()">Submit</button>
+    </div>
+    <div class="myStory"></div></div>
 <!-- End Content -->
 </div>
+ 
 </body>
 </html>
