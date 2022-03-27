@@ -9,6 +9,15 @@ body{
   padding: 100px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+
+.nav {
+  background-color: grey;
+  height: 30px;
+}
+a{
+  padding-left: 5px;;
+
+}
 .container{
   max-width: 700px;
   width: 100%;
@@ -142,8 +151,11 @@ form .user-details .input-box{
     flex-direction: column;
   }
 
-  #nav {
+  .nav {
     background-color: grey;
     height: 30px;
+    padding-left: 20px;
+    color: red !important;
+
   }
 }
