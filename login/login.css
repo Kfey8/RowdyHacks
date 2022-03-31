@@ -4,6 +4,7 @@ body{
   background-repeat: none;
 }
 form {
+  margin-left: 2em;
     border: 3px solid #5D3FD3;
     border-radius: 25px;
     padding: 20px; 
@@ -29,6 +30,10 @@ form {
  a {
   margin-right: 2em;
   color:white;
+}
+#password{
+  color: maroon !important;
+  text-shadow: blueviolet 1px, 1px;
 }
   
   /* Full-width inputs */
@@ -65,7 +70,7 @@ form {
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: darkred;
   }
   
   /* Center the avatar image inside this container */
@@ -99,6 +104,10 @@ form {
     }
     .cancelbtn {
       width: 100%;
+    }
+    #password{
+      color: maroon !important;
+      text-shadow: blueviolet 1px, 1px;
     }
   }
   
